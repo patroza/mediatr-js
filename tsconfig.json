@@ -1,0 +1,36 @@
+{
+    "version": "1.6",
+    "atom": {
+        "rewriteTsconfig": true
+    },
+    "compilerOptions": {
+        "target": "es6",
+        "module": "es6",
+        "declaration": true,
+        "noImplicitAny": false,
+        "removeComments": false,
+        "noLib": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "experimentalAsyncFunctions": true,
+        "sourceMap": true
+    },
+    "filesGlob": [
+        "src/**/*.ts",
+        "**/*.d.ts",
+        "!src/**/*.d.ts",
+        "!dist/**/*.d.ts"
+    ],
+    "files": [
+        "src/index.ts",
+        "src/mediator.ts",
+        "node_modules/dts-bundle/typings/bundle.d.ts",
+        "node_modules/dts-bundle/typings/detect-indent/detect-indent.d.ts",
+        "node_modules/dts-bundle/typings/glob/glob.d.ts",
+        "node_modules/dts-bundle/typings/minimatch/minimatch.d.ts",
+        "node_modules/dts-bundle/typings/mkdirp/mkdirp.d.ts",
+        "node_modules/dts-bundle/typings/node/node.d.ts",
+        "typings/es6.d.ts"
+    ],
+    "exclude": []
+}
