@@ -12,6 +12,7 @@
   "license": "MIT",
   "author": "Patrick Roza <p.roza@outlook.com>",
   "main": "dist/commonjs/index.js",
+  "typings": "dist/mediatr.d.ts",
   "repository": {
     "type": "git",
     "url": "http://github.com/sickboy/mediatr-js"
