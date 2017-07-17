@@ -4,5 +4,6 @@ bower_components
 .idea
 .DS_STORE
 build/reports
+src/**/*.d.ts
 src/**/*.js
 src/**/*.js.map
