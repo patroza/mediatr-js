@@ -29,8 +29,7 @@
         "node_modules/dts-bundle/typings/glob/glob.d.ts",
         "node_modules/dts-bundle/typings/minimatch/minimatch.d.ts",
         "node_modules/dts-bundle/typings/mkdirp/mkdirp.d.ts",
-        "node_modules/dts-bundle/typings/node/node.d.ts",
-        "typings/es6.d.ts"
+        "node_modules/dts-bundle/typings/node/node.d.ts"
     ],
     "exclude": []
 }
